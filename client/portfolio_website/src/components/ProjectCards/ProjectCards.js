@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../../App.css';
 
 
 // put an array of the projects up here that will be looped through to render a card for each project

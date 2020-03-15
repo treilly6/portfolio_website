@@ -1,0 +1,19 @@
+.skill-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 10px;
+    padding : 15px;
+    border-radius: 10px;
+}
+
+.skill-cards-container {
+    transform : skewY(2deg);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width:1131px) {
+    .skill-cards-container {
+        flex-direction: column;
+    }
+}

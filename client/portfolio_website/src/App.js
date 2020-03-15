@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
 import gif1 from './media/sample.gif';
-import ProjectCards from './components/ProjectCards';
+import ProjectCards from './components/ProjectCards/ProjectCards';
+import SkillSection from './components/SkillSection/SkillSection';
+import Footer from './components/layout/Footer';
 
 function App() {
   return (
@@ -21,8 +23,10 @@ function App() {
           <div className="head-text">
               <h2 className="gradient-color">Project Portfolio</h2>
               <ProjectCards />
+              <SkillSection />
           </div>
       </div>
+      <Footer />
 
     </div>
   );
