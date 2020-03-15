@@ -8,14 +8,14 @@ function App() {
     <div className="App">
       <div style={gifContainer} >
           <img src={gif1} style={gif} />
-          {/* <div style={infoBox}>
-              <div style={{fontSize : "10vw"}}>Thomas Reilly</div>
+          <div style={infoBox}>
+              <div style={{fontSize : "10vw"}}>Tom Reilly</div>
               <div style={{fontSize : "3vw"}}>Software Engineer</div>
               <div>
 
               </div>
               <div style={viewProjBtn}>View Projects</div>
-          </div> */}
+          </div>
       </div>
       <div className="section">
           <div className="head-text">
